@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_content_text_boxes",
+  "info": {
+    "displayName": "TextBox",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext"
+    }
+  }
+}
