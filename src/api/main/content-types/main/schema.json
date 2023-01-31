@@ -20,8 +20,11 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "TeamSkills": {
-      "type": "richtext"
+    "Team": {
+      "type": "dynamiczone",
+      "components": [
+        "content.text-box"
+      ]
     }
   }
 }
