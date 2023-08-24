@@ -25,14 +25,29 @@
     "Description": {
       "type": "text"
     },
-    "What": {
-      "type": "richtext"
+    "leftColumn": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     },
-    "How": {
-      "type": "richtext"
+    "rightColumn": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     },
-    "Price": {
-      "type": "richtext"
+    "Bottom": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     },
     "seo": {
       "type": "component",

@@ -11,17 +11,18 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-documentation": "^4.10.2",
-    "@strapi/plugin-graphql": "^4.10.2",
-    "@strapi/plugin-i18n": "4.10.2",
-    "@strapi/plugin-seo": "^1.8.0",
-    "@strapi/plugin-users-permissions": "4.10.2",
-    "@strapi/strapi": "4.10.2",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@strapi/plugin-documentation": "^4.12.6",
+    "@strapi/plugin-graphql": "^4.12.6",
+    "@strapi/plugin-i18n": "4.12.6",
+    "@strapi/plugin-seo": "^1.9.2",
+    "@strapi/plugin-users-permissions": "4.12.6",
+    "@strapi/strapi": "4.12.6",
     "add": "^2.0.6",
-    "pg": "^8.10.0",
-    "strapi-plugin-placeholder": "^4.3.6",
+    "pg": "^8.11.3",
+    "strapi-plugin-placeholder": "^4.4.0",
     "strapi-plugin-react-editorjs": "^2.0.2",
-    "strapi-plugin-sitemap": "^2.0.10",
+    "strapi-plugin-sitemap": "^3.0.3",
     "strapi-plugin-vercel-deploy": "^1.4.0",
     "strapi-provider-upload-cloudflare-r2": "^1.0.2",
     "yarn": "^1.22.19"
@@ -33,7 +34,7 @@
     "uuid": "c46fd545-f8d1-4032-90ff-9058970fe674"
   },
   "engines": {
-    "node": ">=14.19.1 <=16.x.x",
+    "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
